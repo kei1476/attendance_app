@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* header */
+header {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+
+.header-content {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 0;
+}
+
+.header-title {
+    font-size: 36px;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+.header-nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.header-page-link {
+    text-decoration: none;
+    color: black;
+}
+
+.logout-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* ホーム main */
+main {
+    background-color: #eceaea;
+}
+
+.attendance-stamp-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.home-message {
+    text-align: center;
+    font-size: 24px;
+}
+
+.stamps {
+    width: 70%;
+    max-width: 900px;
+    margin: 40px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.stamp {
+    height: 180px;
+    max-width: 400px;
+    min-width: 240px;
+}
+
+.attendance-form {
+    background-color: white;
+    height: 100%;
+}
+
+.stamp button {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.stamped {
+    color: #d6d5d5;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+.copyright-area {
+    width: 200px;
+    margin: 0 auto 0;
+    color: black;
+    text-align: center;
+    height: 100%;
+}
+
+small {
+    display: inline-block;
+    height: 100%;
+    margin-top: 13px;
+}
+
+/* 日付一覧ページ */
+.show-attendances-area {
+    background-color: #eceaea;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.date p {
+    text-align: center;
+    font-size: 28px;
+}
+
+.attendance-table {
+    width: 85%;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.attendance-table table {
+    display: inline-block;
+}
+
+.attendance-table table tr {
+    border-bottom: 1px solid black;
+    line-height: 4;
+}
+
+.attendance-table table th {
+    width: 180px;
+}
+
+.attendance-table table td {
+    width: 180px;
+}
